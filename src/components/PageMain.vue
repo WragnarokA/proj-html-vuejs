@@ -1,6 +1,7 @@
 <script >
 import SingUp from './SingUp.vue';
 import Benefits from './Benefits.vue';
+import Resulds from './Resulds.vue';
 
 export default {
 
@@ -8,6 +9,7 @@ export default {
     components: {
         SingUp,
         Benefits,
+        Resulds,
     },
 
     data() {
@@ -39,6 +41,7 @@ export default {
         </div>
         <SingUp />
         <Benefits />
+        <Resulds />
         <SingUp />
 
 

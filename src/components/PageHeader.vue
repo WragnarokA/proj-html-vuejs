@@ -1,7 +1,7 @@
 <script >
 
 export default {
-    name: "PageHeader",
+    name: "RealResulds",
 
     data() {
         return {

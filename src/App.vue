@@ -12,6 +12,14 @@ export default {
   },
   data() {
     return {
+      images: [
+        "../assets/images/review_1-compressor.jpg",
+        "../assets/images/review_2-compressor.jpg",
+        "../assets/images/review_3-compressor.jpg",
+        "../assets/images/review_4-compressor.jpg"
+
+      ]
+
 
     }
   },
