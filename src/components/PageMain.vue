@@ -2,6 +2,8 @@
 import SingUp from './SingUp.vue';
 import Benefits from './Benefits.vue';
 import Resulds from './Resulds.vue';
+import Performans from './Performans.vue';
+import JumboPunch from './JumboPunch.vue';
 
 export default {
 
@@ -10,6 +12,9 @@ export default {
         SingUp,
         Benefits,
         Resulds,
+        Performans,
+        JumboPunch,
+
     },
 
     data() {
@@ -42,6 +47,9 @@ export default {
         <SingUp />
         <Benefits />
         <Resulds />
+        <Performans />
+        <JumboPunch />
+
         <SingUp />
 
 
