@@ -12,3 +12,7 @@ body {
     color: white;
 
 }
+
+html::-webkit-scrollbar {
+    width: 0;
+}

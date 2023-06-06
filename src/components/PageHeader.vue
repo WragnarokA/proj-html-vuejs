@@ -23,25 +23,28 @@ export default {
 
 
 <template>
-    <div class="jumbo">
-        <div class="bar">
-            <img src="../assets/images/gym_logo_1x.png" alt="">
-            <div class="navBar">
-                <div class="fgOrange">HOME</div>
-                <div>ABOUT US</div>
-                <div>FACILITIES</div>
-                <div>MEMBERSHIP</div>
-                <div>TRSTIMONIALS</div>
-                <div>BLOGS</div>
-            </div>
-        </div>
-        <div class="title">
-            <h1>NO PAIN NO GAIN</h1>
-            <p>Motivation is what gets you started. Habit is what keeps you going.</p>
-            <button>JOIN US TODAY</button>
-        </div>
+    <header>
 
-    </div>
+        <div class="jumbo">
+            <div class="bar">
+                <img src="../assets/images/gym_logo_1x.png" alt="">
+                <div class="navBar">
+                    <div class="fgOrange">HOME</div>
+                    <div>ABOUT US</div>
+                    <div>FACILITIES</div>
+                    <div>MEMBERSHIP</div>
+                    <div>TRSTIMONIALS</div>
+                    <div>BLOGS</div>
+                </div>
+            </div>
+            <div class="title">
+                <h1>NO PAIN NO GAIN</h1>
+                <p>Motivation is what gets you started. Habit is what keeps you going.</p>
+                <button>JOIN US TODAY</button>
+            </div>
+
+        </div>
+    </header>
 </template>
 
 <style lang="scss" scoped>
