@@ -36,6 +36,12 @@ export const store = reactive({
     "— Simon Chel",
     "-Jen Wirth",
     "-Jeff Glum"
+  ],
+
+  trainersName: [
+    "Ann Baker",
+    "Anne Warren",
+    "Peter Rice",
   ]
 
 

@@ -45,7 +45,7 @@ export default {
             <div v-for="card, i in 3" class="cardResulds">
                 <span><img src="../assets/images/trainer1-600x445.jpg"></span>
                 <div>
-                    <p>Ann Baker</p>
+                    <p>{{ store.trainersName[i] }}</p>
                     <p>Personal Trainer</p>
                 </div>
                 <div>
@@ -104,7 +104,7 @@ export default {
 
         img {
             width: 100%;
-
+            // padding-bottom: 2.3rem;
         }
     }
 
