@@ -1,7 +1,12 @@
 <script >
+import SingUp from './SingUp.vue';
 
 export default {
+
     name: "PageMain",
+    components: {
+        SingUp
+    },
 
     data() {
         return {
@@ -30,6 +35,7 @@ export default {
             <p>At Avada Gym, everything we do from top to bottom is of the highest quality to ensure we're equipped</p>
             <p>to help you reach your goals of a healthy and fit lifestyle.</p>
         </div>
+        <SingUp />
 
 
     </main>
