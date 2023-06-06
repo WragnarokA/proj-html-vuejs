@@ -1,11 +1,13 @@
 <script >
 import SingUp from './SingUp.vue';
+import Benefits from './Benefits.vue';
 
 export default {
 
     name: "PageMain",
     components: {
-        SingUp
+        SingUp,
+        Benefits,
     },
 
     data() {
@@ -36,6 +38,9 @@ export default {
             <p>to help you reach your goals of a healthy and fit lifestyle.</p>
         </div>
         <SingUp />
+        <Benefits />
+        <SingUp />
+
 
 
     </main>

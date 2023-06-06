@@ -13,6 +13,7 @@
     --primary-col: #adff2f;
     /* --primary-col-light: #b5ddff; */
     --secondary-col: #141922;
+    --widthInComune: 60rem;
 }
 
 .bgWhite {
@@ -90,6 +91,10 @@
 
 .w100 {
     width: 100%;
+}
+
+.m-1 {
+    margin: 1rem;
 }
 
 .mt-1 {
@@ -264,4 +269,8 @@
 
 .gap-2 {
     gap: 2rem;
+}
+
+.fontWB {
+    font-weight: bold;
 }
