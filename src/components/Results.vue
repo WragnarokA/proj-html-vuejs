@@ -3,7 +3,7 @@ import { store } from '../data/store';
 
 export default {
 
-    name: "Resulds",
+    name: "Results",
     resuldsImg: [
         "../assets/images/review_1-compressor.jpg",
         "../assets/images/review_2-compressor.jpg",

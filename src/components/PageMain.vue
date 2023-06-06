@@ -1,9 +1,10 @@
 <script >
 import SingUp from './SingUp.vue';
 import Benefits from './Benefits.vue';
-import Resulds from './Resulds.vue';
+import Results from './Results.vue';
 import Performans from './Performans.vue';
 import JumboPunch from './JumboPunch.vue';
+import Trainers from './Trainers.vue'
 
 export default {
 
@@ -11,9 +12,10 @@ export default {
     components: {
         SingUp,
         Benefits,
-        Resulds,
+        Results,
         Performans,
         JumboPunch,
+        Trainers,
 
     },
 
@@ -46,9 +48,10 @@ export default {
         </div>
         <SingUp />
         <Benefits />
-        <Resulds />
+        <Results />
         <Performans />
         <JumboPunch />
+        <Trainers />
 
         <SingUp />
 
