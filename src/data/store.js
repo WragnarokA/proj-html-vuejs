@@ -6,7 +6,8 @@ export const store = reactive({
     "fa-solid fa-paperclip fgOrange",
     "fa-solid fa-bicycle fgOrange",
     "fa-brands fa-cloudflare fgOrange",
-    "fa-solid fa-heart-pulse fgOrange"],
+    "fa-solid fa-heart-pulse fgOrange",],
+
   benefitsList: [
     "Strength & Conditioning",
     "Fitness & Cardio",
@@ -42,8 +43,20 @@ export const store = reactive({
     "Ann Baker",
     "Anne Warren",
     "Peter Rice",
+  ],
+  newsPreforman: [
+    "Train with free weights or your body weight?r",
+    "Nutritional advice that will  keep you training",
+    "Simple principles for your next workout",
+    "To be number one, train like you're number two",
+    "Top 5 mistakes every gym  member makes",
+    "The myths of shedding body fat explored",
   ]
 
-
 });
+
+
+
+
+
 

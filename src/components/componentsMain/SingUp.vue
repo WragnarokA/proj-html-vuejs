@@ -26,7 +26,7 @@ export default {
 <template>
     <div class="containerSingUp">
         <div class="singUp">
-            <div class="singUpLeft"><img src="../assets/images/home_img-compressor-400x222.jpg"></div>
+            <div class="singUpLeft"><img src="../../assets/images/home_img-compressor-400x222.jpg"></div>
             <div class="singUpRight">
                 <div>Sign Up For A Free Training Session!</div>
                 <p>Name*</p>
@@ -42,8 +42,8 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/mixins.scss' as *;
-@use '../styles/variables' as *;
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
 
 .containerSingUp {
     width: 100vw;

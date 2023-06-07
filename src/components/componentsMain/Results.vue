@@ -1,22 +1,23 @@
 <script >
-import { store } from '../data/store';
+import { store } from '../../data/store';
 
 export default {
 
     name: "Results",
-    resuldsImg: [
-        "../assets/images/review_1-compressor.jpg",
-        "../assets/images/review_2-compressor.jpg",
-        "../assets/images/review_3-compressor.jpg",
-        "../assets/images/review_4-compressor.jpg"
 
-    ],
 
 
 
     data() {
         return {
             store,
+            Image: [
+                "../assets/images/review_1-compressor.jpg",
+                "../assets/images/review_2-compressor.jpg",
+                "../assets/images/review_3-compressor.jpg",
+                "../assets/images/review_4-compressor.jpg",
+            ]
+
 
         }
     },
@@ -38,12 +39,12 @@ export default {
 <template>
     <div class="containerResulds">
         <h2 class="pt-7 ">REAL WORLD RESULTS</h2>
-        <img class="m-2" src="../assets/images/divider-xx-red.png">
+        <img class="m-2" src="../../assets/images/divider-xx-red.png">
 
         <div class="resulds">
 
             <div v-for="card, i in 4" class="cardResulds">
-                <span><img src="../assets/images/review_1-compressor.jpg"></span>
+                <span><img src="../../assets/images/review_1-compressor.jpg"></span>
                 <div>
                     "{{ store.resuldsDescription[i] }}"
                     <p>{{ store.resuldsName[i] }}</p>
@@ -65,8 +66,8 @@ export default {
 
 
 <style lang="scss" scoped>
-@use '../styles/mixins.scss' as *;
-@use '../styles/variables' as *;
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
 
 .containerResulds {
     width: 100vw;

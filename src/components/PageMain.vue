@@ -1,10 +1,11 @@
 <script >
-import SingUp from './SingUp.vue';
-import Benefits from './Benefits.vue';
-import Results from './Results.vue';
-import Performans from './Performans.vue';
-import JumboPunch from './JumboPunch.vue';
-import Trainers from './Trainers.vue'
+import SingUp from './componentsMain/SingUp.vue';
+import Benefits from './componentsMain/Benefits.vue';
+import Results from './componentsMain/Results.vue';
+import Performans from './componentsMain/Performans.vue';
+import JumboPunch from './componentsMain/JumboPunch.vue';
+import Trainers from './componentsMain/Trainers.vue';
+import News from './componentsMain/News.vue';
 
 export default {
 
@@ -16,6 +17,7 @@ export default {
         Performans,
         JumboPunch,
         Trainers,
+        News,
 
     },
 
@@ -52,8 +54,8 @@ export default {
         <Performans />
         <JumboPunch />
         <Trainers />
+        <News />
 
-        <SingUp />
 
 
 

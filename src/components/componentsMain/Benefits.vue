@@ -1,5 +1,5 @@
 <script >
-import { store } from '../data/store';
+import { store } from '../../data/store';
 
 export default {
 
@@ -32,7 +32,7 @@ export default {
 
                 <i :class="store.icons[i]"></i>
                 <span class="fontWB">{{ store.benefitsList[i] }}</span>
-                <img class="m-1" src="../assets/images/divider-x-red.png">
+                <img class="m-1" src="../../assets/images/divider-x-red.png">
                 <p>Lorem ipsom dolor Sit arnet,</p>
                 <p>consectetur adipiscing elit. In augue</p>
                 <p>nisl, ornare es volutpat etra us.</p>
@@ -45,13 +45,13 @@ export default {
 </template>
 
 <style lang="scss" scoped>
-@use '../styles/mixins.scss' as *;
-@use '../styles/variables' as *;
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
 
 .containerB {
     width: 100vw;
     height: 28rem;
-    background-image: url(../assets/images/gym_bkgd_bw-compressor.jpg);
+    background-image: url(../../assets/images/gym_bkgd_bw-compressor.jpg);
     background-size: cover;
     background-position: center 30%;
     @include flex (row, center, center, );

@@ -1,5 +1,5 @@
 <script >
-import { store } from '../data/store';
+import { store } from '../../data/store';
 
 export default {
 
@@ -48,13 +48,13 @@ export default {
 
 
 <style lang="scss" scoped>
-@use '../styles/mixins.scss' as *;
-@use '../styles/variables' as *;
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
 
 .containerB {
     width: 100vw;
     height: 30.6rem;
-    background-image: url(../assets/images/home-testimonial-bg.jpg);
+    background-image: url(../../assets/images/home-testimonial-bg.jpg);
     background-size: cover;
     background-position: center 45%;
     @include flex (row, center, center, );

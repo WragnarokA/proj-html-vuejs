@@ -1,5 +1,5 @@
 <script >
-import { store } from '../data/store';
+import { store } from '../../data/store';
 
 export default {
 
@@ -29,12 +29,12 @@ export default {
 <template>
     <div class="containerResulds">
         <h2>HIGH PERFORMANCE FACILITIES</h2>
-        <img class="m-2" src="../assets/images/divider-xx-red.png">
+        <img class="m-2" src="../../assets/images/divider-xx-red.png">
 
         <div class="resulds">
 
             <div v-for="card, i in 6" class="cardResulds">
-                <span><img src="../assets/images/home-image1-200x135.jpg"></span>
+                <span><img src="../../assets/images/home-image1-200x135.jpg"></span>
             </div>
 
 
@@ -52,8 +52,8 @@ export default {
 
 
 <style lang="scss" scoped>
-@use '../styles/mixins.scss' as *;
-@use '../styles/variables' as *;
+@use '../../styles/mixins' as *;
+@use '../../styles/variables' as *;
 
 .containerResulds {
     width: 100vw;
