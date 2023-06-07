@@ -1,6 +1,7 @@
 <script >
 import Subscription from '../components/componentsFooter/Subscription.vue';
 import Contacts from '../components/componentsFooter/Contacts.vue';
+import Social from '../components/componentsFooter/Social.vue';
 
 
 
@@ -9,6 +10,7 @@ export default {
     components: {
         Subscription,
         Contacts,
+        Social
 
     },
     data() {
@@ -32,6 +34,7 @@ export default {
 <template>
     <Subscription />
     <Contacts />
+    <Social />
 
 
     <Subscription />
