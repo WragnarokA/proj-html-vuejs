@@ -35,9 +35,6 @@ export default {
     <Subscription />
     <Contacts />
     <Social />
-
-
-    <Subscription />
 </template>
 
 <style lang="scss" scoped></style>
